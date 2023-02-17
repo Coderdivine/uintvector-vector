@@ -1,0 +1,16 @@
+{
+  "name": "vectorintro",
+  "version": "1.0.0",
+  "description": "vectorintro",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "nodemon src/index.js"
+  },
+  "keywords": [],
+  "author": "Coderdivine",
+  "license": "ISC",
+  "dependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
