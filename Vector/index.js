@@ -76,6 +76,15 @@ class Vector{
           if(concat == "WS") return {degrees:(Math.tan(f2/f1))};
           if(concat == "WN") return {degrees:(Math.tan(f2/f1))};
     }
+    
+     dotProduct(x1,x2,y1,y2){
+        const format = "dotOne = (x1i + y1j) || dotTwo = (x2i + y2j)";
+        console.log(format);
+        console.log("----------Dot Product----------")
+        const dot = (x1*y1)+(x2*y2);
+        console.log(dot);
+        return {dot}
+    }
 }
 
 
